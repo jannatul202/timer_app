@@ -1,6 +1,7 @@
 import React from 'react'
 import DaraFetching from './components/DaraFetching'
 import Timer from './components/Timer'
+import Subscription from './components/Subscription'
 
 const App = () => {
   return (
@@ -8,6 +9,8 @@ const App = () => {
       <DaraFetching/>
 
       <Timer/>
+
+      <Subscription/>
     </div>
   )
 }
